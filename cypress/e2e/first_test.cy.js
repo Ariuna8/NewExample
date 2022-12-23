@@ -20,7 +20,7 @@ context('Location', () => {
       expect(location.origin).to.eq('https://example.cypress.io')
       expect(location.pathname).to.eq('/commands/location')
       expect(location.port).to.eq('')
-      expect(location.protocol).to.eq('https:')
+
       expect(location.search).to.be.empty
     })
   })
